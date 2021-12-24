@@ -19,15 +19,14 @@ export default {
 	name: "Sanaa",
 	headerTagline: [
 		//Line 1 For Header
-		"Building digital",
+		"Software Developer",
 		//Line 2 For Header
-		"products, brands,",
+		"CS Student",
 		//Line 3 For Header
-		"and experience",
+		"Carleton '22",
 	],
 	//   Header Paragraph
-	headerParagraph:
-		"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+	headerParagraph: "Welcome to my online portfolio!",
 
 	//Contact Email
 	contactEmail: "sanaasyed.t@gmail.com",
@@ -163,17 +162,20 @@ export default {
 
 	//   Promotion Section --------------------------
 
-	promotionHeading: "Heading",
-	promotionPara:
-		"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+	promotionHeading: "What I'm up to",
+	promotionPara: [
+		"- Working as a production engineer at Shopify",
+		"- Building a mobile app for CommonLit (Menon Fellowship)",
+		"- VP of my school's Google Developer Student Club",
+	],
 	// End Promotion Section -----------------
 
 	//   Contact Section --------------
 
-	contactSubHeading: "You can find me at",
+	contactSubHeading: "Find me at",
 	social: [
 		// Add Or Remove The Link Accordingly
-		{ img: github, url: "https://github.com/chetanverma16" },
+		{ img: github, url: "https://github.com/sanaasy" },
 		{
 			img: linkedin,
 			url: "https://www.codepen.com/",
