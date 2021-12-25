@@ -1,6 +1,5 @@
 import React from "react";
 import data from "../yourdata";
-import { MDBProgress, MDBProgressBar } from "mdb-react-ui-kit";
 
 const Skills = () => {
 	return (
