@@ -93,38 +93,30 @@ export default {
 
 	// Skills Section ---------------
 
-	//   Import Icons from the top and link it here
-
 	skills: [
 		{
-			img: htmlIcon,
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-		},
-		{
-			img: cssIcon,
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-		},
-		{
-			img: jsIcon,
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-		},
-		{
 			img: reactIcon,
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-		},
-		{
-			img: designIcon,
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+			para: "",
 		},
 		{
 			img: codeIcon,
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+			para: "",
+		},
+		{
+			img: jsIcon,
+			para: "",
+		},
+		{
+			img: htmlIcon,
+			para: "",
+		},
+		{
+			img: designIcon,
+			para: "",
+		},
+		{
+			img: cssIcon,
+			para: "",
 		},
 	],
 
