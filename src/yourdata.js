@@ -95,29 +95,18 @@ export default {
 			//Project URL - Add Your Project Url Here
 			url: "http://chetanverma.com/",
 		},
-
-		/*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
 	],
 
 	// End Work Section -----------------------
 
 	// About Secton --------------
 	aboutParaOne:
-		"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+		"Hi there! My name is Sanaa. I'm a Dev Degree intern and Production Engineer at Shopify and a junior at Carleton University studying Computer Science and Business. Dev Degree is a four year work-integrated learning program with Shopify. We got through training and four placements throughout the four years to experience the various disciplines and teams that Shopify and the tech industry has to offer.",
 	aboutParaTwo:
-		"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+		"Outside of work and school, I am an active lead in driving social impact and supporting/guiding girls into STEM fields and an advocate for bringing tech to everyone. I do so through my work as the Vice President of the Google Developer Student Club chapter at my university, my coaching in the STEMing UP program (of which I was a participant in back in 2018) and working on a mobile app to bring CommonLits educational resources to help those with limited internet access in Latin America.",
 	aboutParaThree:
-		"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-	aboutImage:
-		"https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+		"In my free time, you can find me playing the guitar, writing or spending time outside. Some of my current interests have been learning about product management, Augmented and Virtual Reality and the design world! ",
+	aboutImage: "https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image.png",
 
 	//   End About Section ---------------------
 
