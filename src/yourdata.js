@@ -11,6 +11,9 @@ import github from "./images/github.png";
 import medium from "./images/medium.png";
 import linkedin from "./images/linkedin.png";
 
+// Projects
+import vr from "./images/vr.svg";
+
 export default {
 	//(Please Do Not Remove The comma(,) after every variable)
 	//Change The Website Template
@@ -36,64 +39,42 @@ export default {
 	// Work Section ------------------------
 	projects: [
 		{
-			title: "Project One", //Project Title - Add Your Project Title Here
+			title: "CommonLit Mobile App",
 			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-			//Project Image - Add Your Project Image Here
-			imageSrc:
-				"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-			//Project URL - Add Your Project Url Here
-			url: "http://chetanverma.com/",
+				"Creating a mobile accessible app for over 300,000 students in Latin America to access eduational resources from CommonLit.",
+			imageSrc: "https://assets.clever.com/resource-icons/apps/5a70a746e8b1d100017d06fa/icon_5d305ed.png",
+			url: "",
 		},
 		{
-			title: "Project Two", //Project Title - Add Your Project Title Here
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-			//Project Image - Add Your Project Image Here
-			imageSrc:
-				"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-			//Project URL - Add Your Project Url Here
-			url: "http://chetanverma.com/",
+			title: "30 days of Cloud",
+			para: "Created a program to help over 1500 students across North America get Google Cloud certifications.",
+			imageSrc: "https://developers.google.com/community/gdsc/images/stories/csed-week.png",
+			url: "https://cloudcoach.dev/home",
 		},
 		{
-			title: "Project Three", //Project Title - Add Your Project Title Here
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-			//Project Image - Add Your Project Image Here
-			imageSrc:
-				"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-			//Project URL - Add Your Project Url Here
-			url: "http://chetanverma.com/",
+			title: "AR/VR Minecraft",
+			para: "Experimenting with AFrame and Virtual Reality to create an interactive interface.",
+			imageSrc: vr,
+			url: "https://sanaa-minecraft-demo.glitch.me/",
 		},
 		{
-			title: "Project Four", //Project Title - Add Your Project Title Here
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-			//Project Image - Add Your Project Image Here
+			title: "Pomodoro Timer",
+			para: "A technique used to study better - 25 minutes study/work, 5 minutes break.",
 			imageSrc:
-				"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-			//Project URL - Add Your Project Url Here
-			url: "http://chetanverma.com/",
+				"https://res.cloudinary.com/practicaldev/image/fetch/s--UQ54H6Gb--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o5gk6n2wypy84mh7gnrc.png",
+			url: "https://sanaa-pomodoro-timer.herokuapp.com/",
 		},
 		{
-			title: "Project Five", //Project Title - Add Your Project Title Here
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-			//Project Image - Add Your Project Image Here
-			imageSrc:
-				"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-			//Project URL - Add Your Project Url Here
-			url: "http://chetanverma.com/",
+			title: "Spotify Automated",
+			para: "Automatically transfer your youtube playlists into your Spotify app.",
+			imageSrc: "https://cdn.mos.cms.futurecdn.net/bYYiSCS5awcRfhEsFgdoyh-480-80.jpg",
+			url: "https://github.com/sanaasy/spotify-automated",
 		},
 		{
-			title: "Project Six", //Project Title - Add Your Project Title Here
-			para:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-			//Project Image - Add Your Project Image Here
-			imageSrc:
-				"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-			//Project URL - Add Your Project Url Here
-			url: "http://chetanverma.com/",
+			title: "Blog",
+			para: "A ruby on rails and react application that allows user to mimic blog functionalities.",
+			imageSrc: "https://www.dreamhost.com/blog/wp-content/uploads/2019/01/Blog-experts-opt-750x498.jpg",
+			url: "https://github.com/sanaasy/Blog",
 		},
 	],
 
