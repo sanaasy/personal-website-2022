@@ -12,7 +12,7 @@ const Skills = () => {
 						{data.skills.map((skill, index) => (
 							<div className="skill" key={index}>
 								<img src={skill.img} alt="css"></img>
-								{/* <p>{skill.para}</p> */}
+								<p>{skill.para}</p>
 								<div className="gray">
 									<div style={{ width: skill.percent, backgroundColor: skill.colour }}>{skill.percent}</div>
 								</div>

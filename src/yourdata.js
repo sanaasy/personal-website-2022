@@ -20,14 +20,7 @@ export default {
 
 	//   Header Details ---------------------
 	name: "Sanaa",
-	headerTagline: [
-		//Line 1 For Header
-		"Software Developer",
-		//Line 2 For Header
-		"CS Student",
-		//Line 3 For Header
-		"Carleton '22",
-	],
+	headerTagline: ["Software Developer", "CS Student", "Carleton '22"],
 	//   Header Paragraph
 	headerParagraph: "Welcome to my online portfolio!",
 
@@ -96,39 +89,39 @@ export default {
 	skills: [
 		{
 			img: reactIcon,
-			para: "",
+			para: "ReactJS/React Native",
 			percent: "50%",
-			colour: "blue",
+			colour: "#457b9d",
 		},
 		{
 			img: codeIcon,
-			para: "",
+			para: "Coding",
 			percent: "60%",
-			colour: "orange",
+			colour: "#f4a261",
 		},
 		{
 			img: jsIcon,
-			para: "",
+			para: "Javascript",
 			percent: "90%",
-			colour: "yellow",
+			colour: "#e9c46a",
 		},
 		{
 			img: htmlIcon,
-			para: "",
+			para: "HTML",
 			percent: "20%",
-			colour: "red",
+			colour: "#e63946",
 		},
 		{
 			img: designIcon,
-			para: "",
+			para: "UI/UX",
 			percent: "75%",
-			colour: "green",
+			colour: "#cb997e",
 		},
 		{
 			img: cssIcon,
-			para: "",
+			para: "CSS",
 			percent: "50%",
-			colour: "violet",
+			colour: "#cddafd",
 		},
 	],
 

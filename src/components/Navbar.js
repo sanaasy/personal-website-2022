@@ -1,7 +1,6 @@
 import React from "react";
 import scrollTo from "gatsby-plugin-smoothscroll";
 import logo from "../images/logo.png";
-import Hamburger from "hamburger-react";
 
 const Navbar = () => {
 	return (
@@ -20,16 +19,6 @@ const Navbar = () => {
 							Resume
 						</a>
 					</div>
-					{/* <Hamburger
-						direction="right"
-						rounded
-						onToggle={(toggled) => {
-							if (toggled) {
-							} else {
-								// close a menu
-							}
-						}}
-					/> */}
 				</div>
 			</div>
 		</div>
