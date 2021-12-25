@@ -97,26 +97,38 @@ export default {
 		{
 			img: reactIcon,
 			para: "",
+			percent: "50%",
+			colour: "blue",
 		},
 		{
 			img: codeIcon,
 			para: "",
+			percent: "60%",
+			colour: "orange",
 		},
 		{
 			img: jsIcon,
 			para: "",
+			percent: "90%",
+			colour: "yellow",
 		},
 		{
 			img: htmlIcon,
 			para: "",
+			percent: "20%",
+			colour: "red",
 		},
 		{
 			img: designIcon,
 			para: "",
+			percent: "75%",
+			colour: "green",
 		},
 		{
 			img: cssIcon,
 			para: "",
+			percent: "50%",
+			colour: "violet",
 		},
 	],
 
@@ -126,9 +138,9 @@ export default {
 
 	promotionHeading: "What I'm up to",
 	promotionPara: [
-		"- Working as a production engineer at Shopify",
-		"- Building a mobile app for CommonLit (Menon Fellowship)",
-		"- VP of my school's Google Developer Student Club",
+		"Working as a production engineer at Shopify",
+		"Building a mobile app for CommonLit (Menon Fellowship)",
+		"VP of my school's Google Developer Student Club",
 	],
 	// End Promotion Section -----------------
 

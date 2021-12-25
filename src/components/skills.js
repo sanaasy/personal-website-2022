@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../yourdata";
+import { MDBProgress, MDBProgressBar } from "mdb-react-ui-kit";
 
 const Skills = () => {
 	return (
@@ -12,6 +13,9 @@ const Skills = () => {
 							<div className="skill" key={index}>
 								<img src={skill.img} alt="css"></img>
 								{/* <p>{skill.para}</p> */}
+								<div className="gray">
+									<div style={{ width: skill.percent, backgroundColor: skill.colour }}>{skill.percent}</div>
+								</div>
 							</div>
 						))}
 					</div>
