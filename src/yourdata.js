@@ -1,10 +1,10 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg";
-import cssIcon from "./images/css.svg";
 import reactIcon from "./images/react.svg";
 import jsIcon from "./images/javascript.svg";
 import designIcon from "./images/design.svg";
 import codeIcon from "./images/code.svg";
+import graphqlIcon from "./images/graphql.svg";
+import rubyOnRailsIcon from "./images/rubyonrails.svg";
 
 // Social Icon
 import github from "./images/github.png";
@@ -90,37 +90,37 @@ export default {
 		{
 			img: reactIcon,
 			para: "ReactJS/React Native",
-			percent: "50%",
+			percent: "70%",
 			colour: "#457b9d",
 		},
 		{
 			img: codeIcon,
-			para: "Coding",
+			para: "DevOps",
 			percent: "60%",
 			colour: "#f4a261",
 		},
 		{
 			img: jsIcon,
 			para: "Javascript",
-			percent: "90%",
+			percent: "75%",
 			colour: "#e9c46a",
 		},
 		{
-			img: htmlIcon,
-			para: "HTML",
-			percent: "20%",
+			img: graphqlIcon,
+			para: "GraphQL",
+			percent: "85%",
 			colour: "#e63946",
 		},
 		{
 			img: designIcon,
 			para: "UI/UX",
-			percent: "75%",
+			percent: "50%",
 			colour: "#cb997e",
 		},
 		{
-			img: cssIcon,
-			para: "CSS",
-			percent: "50%",
+			img: rubyOnRailsIcon,
+			para: "Ruby on Rails",
+			percent: "60%",
 			colour: "#cddafd",
 		},
 	],
