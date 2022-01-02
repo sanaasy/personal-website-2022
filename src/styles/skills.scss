@@ -7,11 +7,12 @@
 	h1 {
 		font-size: 3rem;
 		line-height: 20px;
+		text-align: center;
 	}
 
 	.skills-grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(7, 1fr);
 		grid-gap: 20px;
 		@include media(">=phone", "<lgphone") {
 			grid-template-columns: 1fr;
@@ -23,26 +24,38 @@
 			grid-template-columns: 1fr 1fr;
 		}
 		.skill {
-			width: 30vw;
-			margin-top: 1vh;
+			width: 10vw;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			text-align: center;
+			justify-content: center;
 			img {
-				height: 4rem;
-			}
-			p {
-				margin-top: 0;
-				font-size: 14px;
-			}
-			.gray {
-				width: 15vw;
-				background-color: lightgray;
+				height: 3rem;
 				@include media(">=phone", "<lgphone") {
-					width: 50vw;
+					display: none;
+				}
+				@include media(">=lgphone", "<tablet") {
+					display: none;
 				}
 			}
+			p {
+				margin-top: 0.75vh;
+				font-size: 12px;
+				@include media(">=phone", "<lgphone") {
+					margin-top: 0;
+				}
+				@include media(">=lgphone", "<tablet") {
+					margin-top: 0;
+				}
+			}
+			// .gray {
+			// 	width: 15vw;
+			// 	background-color: lightgray;
+			// 	@include media(">=phone", "<lgphone") {
+			// 		width: 50vw;
+			// 	}
+			// }
 		}
 	}
 }

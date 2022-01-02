@@ -1,10 +1,33 @@
 // Skills Icons
-import reactIcon from "./images/react.svg";
-import jsIcon from "./images/javascript.svg";
+import cIcon from "./images/languages/c.svg";
+import cPIcon from "./images/languages/c++.svg";
+import goIcon from "./images/languages/go.svg";
+import graphqlIcon from "./images/languages/graphql.svg";
+import htmlIcon from "./images/languages/html.svg";
+import javaIcon from "./images/languages/java.svg";
+import jsIcon from "./images/languages/javascript.svg";
+import phpIcon from "./images/languages/php.svg";
+import pythonIcon from "./images/languages/python.svg";
+import reactIcon from "./images/languages/react.svg";
+import rubyIcon from "./images/languages/ruby.svg";
+import typescriptIcon from "./images/languages/typescript.svg";
+
+// Tools Icons
+import angularJSIcon from "./images/tools/angularJS.svg";
+import apacheIcon from "./images/tools/apache.svg";
+import djangoIcon from "./images/tools/django.svg";
+import expressIcon from "./images/tools/express.svg";
+import figmaIcon from "./images/tools/figma.svg";
+import firebaseIcon from "./images/tools/firebase.svg";
+import flutterIcon from "./images/tools/flutter.svg";
+import kubernetesIcon from "./images/tools/kubernetes.svg";
+import nodeIcon from "./images/tools/node.svg";
+import rubyOnRailsIcon from "./images/tools/rubyonrails.svg";
+import vueIcon from "./images/tools/vue.svg";
+
+// Other Icons
 import designIcon from "./images/design.svg";
 import codeIcon from "./images/code.svg";
-import graphqlIcon from "./images/graphql.svg";
-import rubyOnRailsIcon from "./images/rubyonrails.svg";
 
 // Social Icon
 import github from "./images/github.png";
@@ -89,39 +112,105 @@ export default {
 	skills: [
 		{
 			img: reactIcon,
-			para: "ReactJS/React Native",
-			percent: "70%",
-			colour: "#457b9d",
-		},
-		{
-			img: codeIcon,
-			para: "DevOps",
-			percent: "60%",
-			colour: "#f4a261",
+			para: "ReactJS (Web)",
 		},
 		{
 			img: jsIcon,
 			para: "Javascript",
-			percent: "75%",
-			colour: "#e9c46a",
 		},
 		{
 			img: graphqlIcon,
 			para: "GraphQL",
-			percent: "85%",
-			colour: "#e63946",
 		},
 		{
-			img: designIcon,
-			para: "UI/UX",
-			percent: "50%",
-			colour: "#cb997e",
+			img: reactIcon,
+			para: "React Native (Mobile)",
+		},
+		{
+			img: rubyIcon,
+			para: "Ruby",
+		},
+		{
+			img: cIcon,
+			para: "C",
+		},
+		{
+			img: cPIcon,
+			para: "C++",
+		},
+		{
+			img: goIcon,
+			para: "Golang",
+		},
+		{
+			img: htmlIcon,
+			para: "HTML",
+		},
+		{
+			img: javaIcon,
+			para: "Java",
+		},
+
+		{
+			img: phpIcon,
+			para: "PHP",
+		},
+		{
+			img: pythonIcon,
+			para: "Python",
+		},
+		{
+			img: typescriptIcon,
+			para: "Typescript",
+		},
+	],
+	tools: [
+		{ img: apacheIcon, para: "Apache" },
+		{
+			img: angularJSIcon,
+			para: "AngularJS",
+		},
+		{
+			img: kubernetesIcon,
+			para: "Kubernetes",
 		},
 		{
 			img: rubyOnRailsIcon,
 			para: "Ruby on Rails",
-			percent: "60%",
-			colour: "#cddafd",
+		},
+		{
+			img: djangoIcon,
+			para: "Django",
+		},
+		{
+			img: expressIcon,
+			para: "Express",
+		},
+		{
+			img: figmaIcon,
+			para: "Figma",
+		},
+		{
+			img: firebaseIcon,
+			para: "Firebase",
+		},
+		{
+			img: flutterIcon,
+			para: "Flutter",
+		},
+		{
+			img: nodeIcon,
+			para: "NodeJS",
+		},
+		{
+			img: vueIcon,
+			para: "VueJS",
+		},
+	],
+	other: [
+		{
+			img: designIcon,
+			para: "UI/UX",
 		},
 	],
 
