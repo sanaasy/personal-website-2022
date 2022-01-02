@@ -15,19 +15,22 @@ import typescriptIcon from "./images/languages/typescript.svg";
 // Tools Icons
 import angularJSIcon from "./images/tools/angularJS.svg";
 import apacheIcon from "./images/tools/apache.svg";
+import cloudIcon from "./images/tools/cloud.svg";
 import djangoIcon from "./images/tools/django.svg";
 import expressIcon from "./images/tools/express.svg";
 import figmaIcon from "./images/tools/figma.svg";
 import firebaseIcon from "./images/tools/firebase.svg";
 import flutterIcon from "./images/tools/flutter.svg";
+import gitIcon from "./images/tools/git.svg";
 import kubernetesIcon from "./images/tools/kubernetes.svg";
+import mongoIcon from "./images/tools/mongo.svg";
 import nodeIcon from "./images/tools/node.svg";
-import rubyOnRailsIcon from "./images/tools/rubyonrails.svg";
+import railsIcon from "./images/tools/rails.svg";
 import vueIcon from "./images/tools/vue.svg";
 
 // Other Icons
 import designIcon from "./images/design.svg";
-import codeIcon from "./images/code.svg";
+// import codeIcon from "./images/code.svg";
 
 // Social Icon
 import github from "./images/github.png";
@@ -165,6 +168,26 @@ export default {
 		},
 	],
 	tools: [
+		{
+			img: gitIcon,
+			para: "Git",
+		},
+		{
+			img: cloudIcon,
+			para: "Google Cloud",
+		},
+		{
+			img: figmaIcon,
+			para: "Figma",
+		},
+		{
+			img: firebaseIcon,
+			para: "Firebase",
+		},
+		{
+			img: mongoIcon,
+			para: "MongoDB",
+		},
 		{ img: apacheIcon, para: "Apache" },
 		{
 			img: angularJSIcon,
@@ -175,8 +198,8 @@ export default {
 			para: "Kubernetes",
 		},
 		{
-			img: rubyOnRailsIcon,
-			para: "Ruby on Rails",
+			img: railsIcon,
+			para: "Rails",
 		},
 		{
 			img: djangoIcon,
@@ -186,14 +209,7 @@ export default {
 			img: expressIcon,
 			para: "Express",
 		},
-		{
-			img: figmaIcon,
-			para: "Figma",
-		},
-		{
-			img: firebaseIcon,
-			para: "Firebase",
-		},
+
 		{
 			img: flutterIcon,
 			para: "Flutter",

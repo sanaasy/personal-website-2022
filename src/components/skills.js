@@ -31,7 +31,7 @@ const Skills = () => {
 							</div>
 						))}
 					</div>
-					<h3>Other</h3>
+					{/* <h3>Other</h3>
 					<div className="skills-grid">
 						{data.other.map((skill, index) => (
 							<div className="skill" key={index}>
@@ -39,7 +39,7 @@ const Skills = () => {
 								<p>{skill.para}</p>
 							</div>
 						))}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
