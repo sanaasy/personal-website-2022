@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 
 const Promotion = () => {
-	const items = data.promotionPara.map((point) => <p>{point}</p>);
+	const items = data.promotionPara.map((point) => <p>- {point}</p>);
 
 	return (
 		<div className="section">
