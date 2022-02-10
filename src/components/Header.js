@@ -10,10 +10,10 @@ const Header = () => {
 				<div className="header-wrapper">
 					<Fade bottom>
 						<h2>
-							Hi, I'm {data.name}{" "}
-							<span role="img" aria-label="Emoji">
-								👋
-							</span>
+							👋 Hi, I'm {data.name}{" "}
+							{/* <span role="img" aria-label="Emoji">
+								
+							</span> */}
 						</h2>
 					</Fade>
 					<Fade bottom cascade>
@@ -46,6 +46,14 @@ const Header = () => {
 									<img src={socialLink.img} alt="icons"></img>
 								</a>
 							))}
+							<a
+                href="mailto:sanaasyed.t@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Email"
+              >
+                <img src={email} alt="email"/>
+              </a>
 						</div>
 					</Fade>
 				</div>

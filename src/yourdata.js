@@ -45,7 +45,7 @@ export default {
 	//Change The Website Template
 
 	//   Header Details ---------------------
-	name: "Sanaa",
+	name: "Sanaa Syed",
 	headerTagline: ["Software Developer", "CS Student", "Carleton '22"],
 	//   Header Paragraph
 	headerParagraph: "Welcome to my online portfolio!",
@@ -246,19 +246,16 @@ export default {
 
 	contactSubHeading: "Find me at",
 	social: [
-		// Add Or Remove The Link Accordingly
-		{ img: github, url: "https://github.com/sanaasy" },
 		{
 			img: linkedin,
 			url: "https://www.codepen.com/",
 		},
+		{ img: github, url: "https://github.com/sanaasy" },
 		{
 			img: medium,
-			url: "https://dribbble.com/chetanverma",
+			url: "https://medium.com/@sanaasyed",
 		},
 	],
 
 	// End Contact Section ---------------
 };
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
