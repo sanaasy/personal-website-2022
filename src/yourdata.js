@@ -236,9 +236,9 @@ export default {
 
 	promotionHeading: "What I'm up to",
 	promotionPara: [
-		"Working as a production engineer at Shopify",
-		"Building a mobile app for CommonLit (Menon Fellowship)",
-		"VP of my school's Google Developer Student Club",
+		"Production engineering Intern at Shopify - working on scaling and designing infrastructure",
+		"Building a mobile app for CommonLit to help students in Latin America - part of the Menon Fellowship",
+		"VP of Carleton University's Google Developer Student Club - bringing new technologies to students",
 	],
 	// End Promotion Section -----------------
 
