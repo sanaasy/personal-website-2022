@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 // Components
 import Header from "../components/Header";
 import Work from "../components/Work";
+import Experience from "../components/Experience";
 import About from "../components/about";
 import Skills from "../components/skills";
 import Promotion from "../components/Promotion";
@@ -17,6 +18,7 @@ const IndexPage = () => (
 		<hr />
 		<Promotion></Promotion>
 		<Work></Work>
+		<Experience></Experience>
 		<Skills></Skills>
 		<About></About>
 		<Footer></Footer>

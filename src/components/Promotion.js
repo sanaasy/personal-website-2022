@@ -9,7 +9,7 @@ const Promotion = () => {
     <div className="section">
       <div className="container">
         <div className="promotion-container">
-          <Fade bottom cascade>
+          <Fade bottom>
             <h1>📌 {data.promotionHeading} 📌</h1>
           </Fade>
           {/* <div>{items}</div> */}
