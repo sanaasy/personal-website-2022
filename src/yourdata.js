@@ -45,7 +45,7 @@ export default {
 	//Change The Website Template
 
 	//   Header Details ---------------------
-	name: "Sanaa Syed",
+	name: "Sanaa",
 	headerTagline: ["Software Developer", "CS Student", "Carleton '22"],
 	//   Header Paragraph
 	headerParagraph: "Welcome to my online portfolio!",

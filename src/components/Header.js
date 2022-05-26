@@ -1,7 +1,13 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
-import email from "../images/email.png";
+// import email from "../images/email.png";
+import s1 from "../images/home/1.svg";
+import s2 from "../images/home/2.svg";
+import s3 from "../images/home/3.svg";
+import s4 from "../images/home/4.svg";
+import s5 from "../images/home/5.svg";
+import test from "../images/home/test.svg";
 
 import ReactTypingEffect from "react-typing-effect";
 
@@ -12,18 +18,36 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              👋 Hi, I'm {data.name}.{" "}
+              <span role="img" aria-label="wave">
+                👋
+              </span>{" "}
+              Hi, my name is {data.name}{" "}
             </h2>
           </Fade>
-					 <div className="typed-text">
-							<ReactTypingEffect
-								text={["Software Developer @ Shopify", "CS and Business"]}
-								speed={100}
-								typingDelay={1000}
-								eraseSpeed={100}
-							/>
-					</div>
-          <Fade bottom>
+          <ReactTypingEffect
+            text={["Software Developer at Shopify", "CS and Business '22"]}
+            speed={100}
+            typingDelay={1000}
+            eraseSpeed={100}
+            className="typed-text"
+          />
+          <div className="shape1">
+            <img src={s1} alt="shape" />
+          </div>
+          <div className="shape2">
+            <img src={s2} alt="shape" />
+          </div>
+          <div className="shape3">
+            <img src={s3} alt="shape" />
+          </div>
+          <div className="shape4">
+            <img src={s4} alt="shape" />
+          </div>
+          <div className="shape5">
+            <img src={s5} alt="shape" />
+          </div>
+
+          {/* <Fade bottom>
             <div className="social-icons">
               {data.social.map((socialLink, index) => (
                 <a
@@ -44,7 +68,7 @@ const Header = () => {
                 <img src={email} alt="email" />
               </a>
             </div>
-          </Fade>
+          </Fade> */}
         </div>
       </div>
     </div>

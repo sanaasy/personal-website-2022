@@ -1,23 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
 .navbar-wrapper {
-  width: 80vw;
-  margin-top: 5vh;
+  width: 100%;
+  background-color: #f7f2ed;
+  // width: 80vw;
+  // margin-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   .name {
     width: 10vh;
+    margin-left: 3vw;
   }
   .links-wrapper {
     button {
       text-decoration: none;
       margin: 0 1vw;
-      font-family: "Open Sans";
+      font-family: "Inter";
       opacity: 0.6;
       transition: all 0.2s ease-in-out;
-      font-size: 20px;
+      font-size: 15px;
+      font-weight: bold;
       background-color: transparent;
       outline: none;
       border: 0px;
+      color: #c99c80;
       cursor: pointer;
       &:hover {
         opacity: 1;

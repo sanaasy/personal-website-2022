@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import "./include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 // Atoms
 @import "./card.scss";
 
@@ -16,6 +16,7 @@
 @import "./footer.scss";
 
 * {
+  // font-family: 'Inter', Arial, Helvetica;
   font-family: "Montserrat";
   // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
   //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
