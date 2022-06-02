@@ -2,36 +2,32 @@
 
 .navbar-wrapper {
   width: 100%;
-  background-color: #f7f2ed;
-  // width: 80vw;
-  // margin-top: 5vh;
+  height: 6vh;
+  background-color: #edede9;
   display: flex;
   align-items: center;
   justify-content: space-between;
   .name {
-    width: 10vh;
-    margin-left: 3vw;
+    width: 7vh;
+    margin-left: 15vw;
   }
   .links-wrapper {
     button {
       text-decoration: none;
       margin: 0 1vw;
-      font-family: "Inter";
-      opacity: 0.6;
-      transition: all 0.2s ease-in-out;
-      font-size: 15px;
+      font-family: "Montserrat";
+      // opacity: 0.6;
+      font-size: 14px;
       font-weight: bold;
+      font-style: italic;
       background-color: transparent;
-      outline: none;
       border: 0px;
-      color: #c99c80;
+      color: #d4a373;
       cursor: pointer;
       &:hover {
-        opacity: 1;
+        // opacity: 1;
+        text-decoration: overline;
       }
-    }
-    .active {
-      color: black;
     }
     a {
       text-decoration: none;

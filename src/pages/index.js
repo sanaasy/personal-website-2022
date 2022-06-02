@@ -17,11 +17,11 @@ const IndexPage = () => (
 		<Header></Header>
 		{/* <hr /> */}
 		{/* <Promotion></Promotion> */}
-		<Work></Work>
+		{/* <Work></Work> */}
 		{/* <Experience></Experience> */}
-		<Skills></Skills>
+		{/* <Skills></Skills>
 		<About></About>
-		<Footer></Footer>
+		<Footer></Footer> */}
 	</Layout>
 );
 

@@ -19,8 +19,8 @@ const Navbar = () => {
             <button onClick={clickMe("#work")} onKeyDown={clickMe("#work")}>Projects</button>
             <button onClick={clickMe("#skills")} onKeyDown={clickMe("#skills")}>Skills</button>
             <button onClick={clickMe("#about")} onKeyDown={clickMe("#about")}>About Me</button>
-            <button onClick={clickMe("#speaking")} onKeyDown={clickMe("#speaking")}>Speaking</button>
-            <button onClick={clickMe("#contact")} onKeyDown={clickMe("#contact")} style={{ marginRight: "3vw"}}>Contact Me</button>
+            <button onClick={clickMe("#speaking")} onKeyDown={clickMe("#speaking")}>Speaking Engagements</button>
+            <button onClick={clickMe("#contact")} onKeyDown={clickMe("#contact")} style={{ marginRight: "15vw"}}>Contact Me</button>
             {/* <a target="no_blank" href="/resume.pdf">
 							check out my <strong>resume</strong>
 						</a> */}
