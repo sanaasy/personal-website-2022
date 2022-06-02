@@ -2,49 +2,50 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 // import email from "../images/email.png";
-import s1 from "../images/home/1.svg";
-import s2 from "../images/home/2.svg";
-import s3 from "../images/home/3.svg";
-import s4 from "../images/home/4.svg";
-import s5 from "../images/home/5.svg";
 
-import rand from "../images/home/rand.svg";
-import blob from "../images/home/blob.svg";
-import blob2 from "../images/home/blob2.svg";
+import blobs from "../images/home/blobs.png";
+
+import b1 from "../images/home/b1.svg";
+import b2 from "../images/home/b2.svg";
+import b3 from "../images/home/b3.svg";
+import b4 from "../images/home/b4.svg";
+import b5 from "../images/home/b5.svg";
+import b6 from "../images/home/b6.svg";
 
 const Header = () => {
   return (
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          {/* <Fade bottom> */}
-            <h2>
-              <span role="img" aria-label="wave">
-                👋
-              </span>{" "}
-              Hi, my name is {data.name}{" "}
-            </h2>
-            <p>Coder @ Shopify. Writer. CS '22.</p>
-          {/* </Fade> */}
+          <h2>
+            <span role="img" aria-label="wave">
+              👋
+            </span>{" "}
+            Hi, my name is {data.name}{" "}
+          </h2>
+          <p>Coder @ Shopify. Writer. CS '22.</p>
+
+          {/* <div className="background">
+          </div> */}
 
           <div className="shape1">
-            <img src={rand} alt="shape" />
+            <img src={b1} alt="shape" />
           </div>
-          {/* <div className="shape1">
-            <img src={s1} alt="shape" />
-          </div> */}
           <div className="shape2">
-            <img src={blob} alt="shape" />
+            <img src={b2} alt="shape" />
           </div>
           <div className="shape3">
-            <img src={blob2} alt="shape" />
-          </div>{/* 
+            <img src={b3} alt="shape" />
+          </div>
           <div className="shape4">
-            <img src={s4} alt="shape" />
+            <img src={b4} alt="shape" />
           </div>
           <div className="shape5">
-            <img src={s5} alt="shape" />
-          </div> */}
+            <img src={b5} alt="shape" />
+          </div>
+          <div className="shape6">
+            <img src={b6} alt="shape" />
+          </div>
 
           {/* <Fade bottom>
             <div className="social-icons">
