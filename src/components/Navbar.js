@@ -7,18 +7,24 @@ const Navbar = () => {
     return () => scrollTo(location);
   };
 
-  useEffect(() => {
+  const [visible, setVisible] = useState(false)
+  
+  const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if(scrolled > 10){
-      const navbar = document.getElementsByClassName("navbar-wrapper")[0];
-      navbar.style.backgroundColor = "#edede9";
+    if (scrolled > 10){
+      setVisible(true)
+    } 
+    else {
+      setVisible(false)
     }
-  })
+  };
+
+  window.addEventListener('scroll', toggleVisible);
 
   return (
     <div className="section">
       <div className="container">
-        <div className="navbar-wrapper">
+        <div className="navbar-wrapper" style={{backgroundColor: visible ? "#edede9" : "#fff", transition: "all .8s ease",}}>
           <div
             role="button"
             onClick={clickMe("#home")}

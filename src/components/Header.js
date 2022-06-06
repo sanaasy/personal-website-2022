@@ -24,6 +24,9 @@ const Header = () => {
             Hi, my name is {data.name}{" "}
           </h2>
           <p>Coder @ Shopify. Writer. CS '22.</p>
+          {/* <a  target="no_blank" href="/resume.pdf">
+          check out my <strong>resume</strong>
+        </a> */}
           {/* <a target="no_blank" href="/resume.pdf">
 							check out my <strong>resume</strong>
 						</a> */}
