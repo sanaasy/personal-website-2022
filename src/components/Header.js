@@ -24,11 +24,14 @@ const Header = () => {
             Hi, my name is {data.name}{" "}
           </h2>
           <p>Coder @ Shopify. Writer. CS '22.</p>
+          {/* <a target="no_blank" href="/resume.pdf">
+							check out my <strong>resume</strong>
+						</a> */}
 
           {/* <div className="background">
           </div> */}
 
-          <div className="shape1">
+          {/* <div className="shape1">
             <img src={b1} alt="shape" />
           </div>
           <div className="shape2">
@@ -45,7 +48,7 @@ const Header = () => {
           </div>
           <div className="shape6">
             <img src={b6} alt="shape" />
-          </div>
+          </div> */}
 
           {/* <Fade bottom>
             <div className="social-icons">

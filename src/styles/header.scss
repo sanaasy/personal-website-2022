@@ -2,16 +2,17 @@
 
 .header-wrapper {
   width: 100%;
-  height: calc(50vh + 1vmin);
+  height: calc(90vh + 1vmin);
   display: flex;
   flex-direction: column;
   align-items: center;
+  // background-color: blue;
   h2 {
     font-size: 2.5rem;
     color: black;
     text-align: center;
     font-family: "Inter";
-    padding-top: calc(20vh + 1vmin);
+    padding-top: calc(30vh + 1vmin);
     margin-bottom: 0.5rem;
     @include media(">=phone", "<lgphone") {
       font-size: 16px;
