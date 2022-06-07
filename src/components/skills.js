@@ -36,6 +36,7 @@ const Skills = () => {
               );
             })}
           </div>
+          
           {filter === "Programming Languages" ? (
             <div className="skills-grid">
               {data.skills.map((skill, index) => (
