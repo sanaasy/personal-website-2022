@@ -5,11 +5,11 @@ import SEO from "../components/seo";
 // Components
 import Header from "../components/Header";
 import Work from "../components/Work";
-import Experience from "../components/Experience";
+// import Experience from "../components/Experience";
 import About from "../components/about";
 import Skills from "../components/skills";
 // import Promotion from "../components/Promotion";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 const IndexPage = () => (
 	<Layout>
@@ -20,7 +20,7 @@ const IndexPage = () => (
 		<Work></Work>
 		{/* <Experience></Experience> */}
 		<Skills></Skills>
-		{/* <About></About> */}
+		<About></About>
 		{/* <Footer></Footer> */}
 	</Layout>
 );

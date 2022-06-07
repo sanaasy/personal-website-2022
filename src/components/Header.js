@@ -1,16 +1,6 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 // import email from "../images/email.png";
-
-import blobs from "../images/home/blobs.png";
-
-import b1 from "../images/home/b1.svg";
-import b2 from "../images/home/b2.svg";
-import b3 from "../images/home/b3.svg";
-import b4 from "../images/home/b4.svg";
-import b5 from "../images/home/b5.svg";
-import b6 from "../images/home/b6.svg";
 
 const Header = () => {
   return (

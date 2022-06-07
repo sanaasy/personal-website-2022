@@ -38,7 +38,7 @@ const Skills = () => {
           </div>
           
           {filter === "Programming Languages" ? (
-            <div className="skills-grid">
+            <div className="skills-grid" >
               {data.skills.map((skill, index) => (
                 <div className="skill" key={index}>
                   <img src={skill.img} alt="css"></img>

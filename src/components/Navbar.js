@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import scrollTo from "gatsby-plugin-smoothscroll";
 import logo from "../images/logo.png";
 
@@ -7,24 +7,29 @@ const Navbar = () => {
     return () => scrollTo(location);
   };
 
-  const [visible, setVisible] = useState(false)
-  
+  const [visible, setVisible] = useState(false);
+
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 10){
-      setVisible(true)
-    } 
-    else {
-      setVisible(false)
+    if (scrolled > 10) {
+      setVisible(true);
+    } else {
+      setVisible(false);
     }
   };
 
-  window.addEventListener('scroll', toggleVisible);
+  window.addEventListener("scroll", toggleVisible);
 
   return (
     <div className="section">
       <div className="container">
-        <div className="navbar-wrapper" style={{backgroundColor: visible ? "#edede9" : "#fff", transition: "all .8s ease",}}>
+        <div
+          className="navbar-wrapper"
+          style={{
+            backgroundColor: visible ? "#edede9" : "#fff",
+            transition: "all .8s ease",
+          }}
+        >
           <div
             role="button"
             onClick={clickMe("#home")}
