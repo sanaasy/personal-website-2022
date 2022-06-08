@@ -4,7 +4,6 @@
   width: 100%;
   display: flex;
   justify-content: right;
-  margin-bottom: 25vh;
   @include media(">=phone", "<lgphone") {
     flex-direction: column-reverse;
   }
@@ -17,7 +16,6 @@
   }
   .content {
     width: 40%;
-    // background-color: blue;
     margin-left: 25vh;
     @include media(">=phone", "<lgphone") {
       width: 100%;
@@ -85,6 +83,7 @@
       width: 13vw;
       height: auto;
       border-radius: 47% 47% 0 0;
+			filter: brightness(120%);
     }
   }
 }
