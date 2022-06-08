@@ -101,7 +101,7 @@ export default {
 
 	// About Secton --------------
 	aboutParaOne:
-		"Hi there! My name is Sanaa. I'm a Dev Degree intern and Production Engineer at Shopify and a junior at Carleton University studying Computer Science and Business. Dev Degree is a four year work-integrated learning program with Shopify. We got through training and four placements throughout the four years to experience the various disciplines and teams that Shopify and the tech industry has to offer.",
+		"Hi there! My name is Sanaa. I'm a Dev Degree intern and Production Engineer at Shopify and a junior at Carleton University studying Computer Science and Business. Dev Degree is a four year work-integrated learning program with Shopify. We go through training and four placements throughout the four years to experience the various disciplines and teams that Shopify and the tech industry has to offer.",
 	aboutParaTwo:
 		"Outside of work and school, I am an active lead in driving social impact and supporting/guiding girls into STEM fields and an advocate for bringing tech to everyone. I do so through my work as the Vice President of the Google Developer Student Club chapter at my university, my coaching in the STEMing UP program (of which I was a participant in back in 2018) and working on a mobile app to bring CommonLits educational resources to help those with limited internet access in Latin America.",
 	aboutParaThree:
