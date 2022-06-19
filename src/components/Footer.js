@@ -11,34 +11,30 @@ const Footer = () => {
             <h1>Contact</h1>
             {/* <h2>{data.contactSubHeading}</h2> */}
           </Fade>
-          <div>
+
+          <form action="mailto:sanaasyed.t@gmail.com" method="post" >
             <label for="name">Name</label>
             <input
-              type="text"
-              id="name"
               name="name"
-              placeholder="Your name.."
+              type="text"
+              class="feedback-input"
+              placeholder="Name"
             />
-          </div>
-          <div>
             <label for="email">Email</label>
             <input
-              type="text"
-              id="email"
               name="email"
-              placeholder="Contact email"
+              type="text"
+              class="feedback-input"
+              placeholder="Email"
             />
-          </div>
-          <div>
-            <label for="subject">Subject</label>
-            {/* <textarea
-              id="subject"
-              name="subject"
-              placeholder="Write something.."
-              style="height:200px"
-            ></textarea> */}
-          </div>
-					<input type="submit" value="Submit" />
+            <label for="subject">Your message</label>
+            <textarea
+              name="text"
+              class="feedback-input"
+              placeholder="Comment"
+            ></textarea>
+            <input type="submit" value="SUBMIT" />
+          </form>
           {/* <a className="email-link" href={`mailto:${data.contactEmail}`}>
 						{data.contactEmail}
 					</a>

@@ -1,8 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
-import me from "../images/me.jpg";
-
+// import me from "../images/me.jpg";
+import me from "../images/me2.jpg";
 const About = () => {
   return (
     <div className="section" id="about">

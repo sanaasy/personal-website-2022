@@ -2,11 +2,12 @@
 
 .footer-container {
   width: 100%;
-  margin: 5vh 0;
+  padding: 5vh 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Inter";
+  background-color: #F7F2ED;
   h1 {
     font-size: 36px;
     line-height: 20px;
@@ -26,6 +27,65 @@
       font-size: 1.2rem;
     }
   }
+
+  form {
+    max-width: 420px;
+  }
+  label {
+    font-family: "Inter";
+    font-size: 16px;
+    color: #C99C80;
+    font-style: italic;
+    font-weight: 900;
+  }
+
+  .feedback-input {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: white;
+    border: 2px solid #C99C80;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  .feedback-input:focus {
+    border: 2px solid #C99C80;
+  }
+
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+
+  [type="submit"] {
+    font-family: "Inter";
+    width: 100%;
+    background: #C99C80;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+  }
+  [type="submit"]:hover {
+    border: 2px solid #C99C80;
+    background: #F7F2ED;
+    color: #C99C80;
+  }
+
   .email-link {
     font-size: 1.5rem;
     color: black;

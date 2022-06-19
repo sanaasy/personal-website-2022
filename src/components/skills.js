@@ -60,10 +60,10 @@ const Skills = () => {
           ) : null}
 
           {filter === "Certifications" ? (
-            <div className="skills-grid">
+            <div className="certs-grid">
               {data.other.map((skill, index) => (
-                <div className="skill" key={index}>
-                  <img src={skill.img} alt="css"></img>
+                <div className="cert" key={index}>
+                  <img src={skill.img} alt="css" />
                   <p>{skill.para}</p>
                 </div>
               ))}

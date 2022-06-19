@@ -3,7 +3,9 @@
 .about-section {
   width: 100%;
   display: flex;
-  justify-content: right;
+	padding: 5vh 1vw;
+	justify-content: right;
+	background-color: #f7f2ed;
   @include media(">=phone", "<lgphone") {
     flex-direction: column-reverse;
   }
