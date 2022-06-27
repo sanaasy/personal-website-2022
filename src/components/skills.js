@@ -1,49 +1,78 @@
-import React from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 
+const Categories = [
+  "Programming Languages",
+  "Tools and Frameworks",
+  "Certifications",
+];
+
 const Skills = () => {
-	return (
-		<div className="section" id="skills">
-			<div className="container">
-				<div className="skills-container">
-					<Fade bottom cascade>
-						<h1>Skills</h1>
-					</Fade>
-					<h3>Programming Languages</h3>
-					<div className="skills-grid">
-						{data.skills.map((skill, index) => (
-							<div className="skill" key={index}>
-								<img src={skill.img} alt="css"></img>
-								<p>{skill.para}</p>
-								{/* <div className="gray">
-									<div style={{ width: skill.percent, backgroundColor: skill.colour }}>{skill.percent}</div>
-								</div> */}
-							</div>
-						))}
-					</div>
-					<h3>Tools and Frameworks</h3>
-					<div className="skills-grid">
-						{data.tools.map((tool, index) => (
-							<div className="skill" key={index}>
-								<img src={tool.img} alt="css"></img>
-								<p>{tool.para}</p>
-							</div>
-						))}
-					</div>
-					{/* <h3>Other</h3>
-					<div className="skills-grid">
-						{data.other.map((skill, index) => (
-							<div className="skill" key={index}>
-								<img src={skill.img} alt="css"></img>
-								<p>{skill.para}</p>
-							</div>
-						))}
-					</div> */}
-				</div>
-			</div>
-		</div>
-	);
+  const [filter, setFilter] = useState("Programming Languages");
+
+  return (
+    <div className="section" id="skills">
+      <div className="container">
+        <div className="skills-container">
+          <Fade bottom cascade>
+            <h1>Skills</h1>
+          </Fade>
+          <div className="button-group">
+            {Categories.map((categoryName) => {
+              return (
+                <button
+                  type="button"
+                  style={{
+                    backgroundColor:
+                      filter === categoryName ? "#000" : "#F2F2F2",
+                    color: filter === categoryName ? "#fff" : "#000",
+                  }}
+                  className="btn active"
+                  onClick={() => setFilter(categoryName)}
+                >
+                  {categoryName}
+                </button>
+              );
+            })}
+          </div>
+          
+          {filter === "Programming Languages" ? (
+            <div className="skills-grid" >
+              {data.skills.map((skill, index) => (
+                <div className="skill" key={index}>
+                  <img src={skill.img} alt="css"></img>
+                  <p>{skill.para}</p>
+                </div>
+              ))}
+            </div>
+          ) : null}
+
+          {filter === "Tools and Frameworks" ? (
+            <div className="skills-grid">
+              {data.tools.map((tool, index) => (
+                <div className="skill" key={index}>
+                  <img src={tool.img} alt="css"></img>
+                  <p>{tool.para}</p>
+                </div>
+              ))}
+            </div>
+          ) : null}
+
+          {filter === "Certifications" ? (
+            <div className="certs-grid">
+              {data.other.map((skill, index) => (
+                <div className="cert" key={index}>
+                  <img src={skill.img} alt="css" />
+                  <p>{skill.para}</p>
+                </div>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Skills;

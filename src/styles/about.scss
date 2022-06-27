@@ -1,6 +1,6 @@
 .about-section {
 	width: 80vw;
-	margin-top: 10vh;
+	// margin-top: 10vh;
 	display: flex;
 	justify-content: space-between;
 	@include media(">=phone", "<lgphone") {
@@ -45,6 +45,18 @@
 		align-items: center;
 		justify-content: center;
 		overflow: hidden;
+		animation: move 3s ease-in-out infinite alternate;
+    @keyframes move {
+      0% {
+        transform: translate(0, 0px);
+      }
+      50% {
+        transform: translate(0, 10px);
+      }
+      100% {
+        transform: translate(0, -0px);
+      }
+    }
 		@include media(">=phone", "<lgphone") {
 			width: 100%;
 		}
@@ -54,5 +66,10 @@
 		@include media(">=tablet", "<desktop") {
 			width: 100%;
 		}
+		img {
+      width: 30vw;
+      height: auto;
+      border-radius: 10% 10%;
+    }
 	}
 }
