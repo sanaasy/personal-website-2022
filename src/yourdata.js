@@ -30,6 +30,8 @@ import vueIcon from "./images/tools/vue.svg";
 
 // Other Icons
 import designIcon from "./images/design.svg";
+import gcdlIcon from "./images/certs/gcdl.png";
+import azIcon from "./images/certs/az.png";
 // import codeIcon from "./images/code.svg";
 
 // Social Icon
@@ -62,7 +64,7 @@ export default {
 			para:
 				"Creating a mobile accessible app for over 300,000 students in Latin America to access eduational resources from CommonLit.",
 			imageSrc: "https://assets.clever.com/resource-icons/apps/5a70a746e8b1d100017d06fa/icon_5d305ed.png",
-			url: "",
+			url: "https://drive.google.com/file/d/1bZ6FGdr3mNyniNN641XvQyvoZlpjHVrN/view?usp=sharing",
 		},
 		{
 			title: "30 days of Cloud",
@@ -224,11 +226,19 @@ export default {
 		},
 	],
 	other: [
-		{
-			img: designIcon,
-			para: "UI/UX",
-		},
-	],
+		// {
+		// 	img: designIcon,
+		// 	para: "UI/UX",
+		// },
+    {
+      img: gcdlIcon,
+      para: "Google Digital Cloud Leader",
+    },
+    {
+      img: azIcon,
+      para: "Microsoft Azure Fundamentals",
+    },
+  ],
 
 	// End Skills Section --------------------------
 
