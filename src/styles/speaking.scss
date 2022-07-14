@@ -1,0 +1,37 @@
+.speaking-section {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .carousel {
+    width: 65vw;
+  }
+
+  .swiper-button-prev {
+    margin-right: 3vw;
+    color: transparent;
+    background-image: url(../images/left.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  .swiper-button-next {
+    color: transparent;
+    background-image: url(../images/right.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: black !important;
+  }
+}

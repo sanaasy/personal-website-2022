@@ -10,41 +10,44 @@ const Header = () => {
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
-            <h2>
-              👋 Hi, I'm {data.name}.{" "}
-            </h2>
-          </Fade>
-					 <div className="typed-text">
-							<ReactTypingEffect
-								text={["Software Developer @ Shopify", "CS and Business"]}
-								speed={100}
-								typingDelay={1000}
-								eraseSpeed={100}
-							/>
-					</div>
-          <Fade bottom>
-            <div className="social-icons">
-              {data.social.map((socialLink, index) => (
-                <a
-                  key={index}
-                  href={socialLink.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={socialLink.img} alt="icons"></img>
-                </a>
-              ))}
+          <h2>
+            <span role="img" aria-label="wave">
+              👋
+            </span>{" "}
+            Hi, I'm {data.name}.{" "}
+          </h2>
+
+          <div className="typed-text">
+            <ReactTypingEffect
+              text={["Software Developer @ Shopify", "CS and Business"]}
+              speed={100}
+              typingDelay={1000}
+              eraseSpeed={100}
+            />
+          </div>
+          <div className="social-icons">
+            {data.social.map((socialLink, index) => (
               <a
-                href="mailto:sanaasyed.t@gmail.com"
+                key={index}
+                href={socialLink.url}
                 target="_blank"
-                rel="noreferrer"
-                aria-label="Email"
+                rel="noopener noreferrer"
               >
-                <img src={email} alt="email" />
+                <img src={socialLink.img} alt="icons"></img>
               </a>
-            </div>
-          </Fade>
+            ))}
+            <a
+              href="mailto:sanaasyed.t@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Email"
+            >
+              <img src={email} alt="email" />
+            </a>
+          </div>
+          <a target="no_blank" href="/resume.pdf" className="resume">
+            check out my <strong>resume</strong>
+          </a>
         </div>
       </div>
     </div>

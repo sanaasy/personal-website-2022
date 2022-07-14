@@ -3,6 +3,8 @@
 	// margin-top: 10vh;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
 	@include media(">=phone", "<lgphone") {
 		flex-direction: column-reverse;
 	}
@@ -13,8 +15,14 @@
 		flex-direction: column-reverse;
 		align-items: center;
 	}
+	h1 {
+		font-size: 3rem;
+		line-height: 20px;
+		text-align: center;
+	}
 	.content {
 		width: 50%;
+		text-align: center;
 		@include media(">=phone", "<lgphone") {
 			width: 100%;
 		}
@@ -24,14 +32,6 @@
 		@include media(">=tablet", "<desktop") {
 			width: 100%;
 		}
-
-		h1 {
-			font-size: 3rem;
-			line-height: 20px;
-			@include media(">=tablet", "<desktop") {
-				text-align: center;
-			}
-		}
 		p {
 			@include media(">=tablet", "<desktop") {
 				text-align: center;
@@ -40,23 +40,23 @@
 	}
 	.image-wrapper {
 		width: 50%;
-		height: 50vh;
+		height: 40vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		overflow: hidden;
-		animation: move 3s ease-in-out infinite alternate;
-    @keyframes move {
-      0% {
-        transform: translate(0, 0px);
-      }
-      50% {
-        transform: translate(0, 10px);
-      }
-      100% {
-        transform: translate(0, -0px);
-      }
-    }
+		// animation: move 3s ease-in-out infinite alternate;
+    // @keyframes move {
+    //   0% {
+    //     transform: translate(0, 0px);
+    //   }
+    //   50% {
+    //     transform: translate(0, 10px);
+    //   }
+    //   100% {
+    //     transform: translate(0, -0px);
+    //   }
+    // }
 		@include media(">=phone", "<lgphone") {
 			width: 100%;
 		}
@@ -67,9 +67,9 @@
 			width: 100%;
 		}
 		img {
-      width: 30vw;
+      width: 40vw;
       height: auto;
-      border-radius: 10% 10%;
+      border-radius: 5% 5%;
     }
 	}
 }
