@@ -5,10 +5,11 @@ import SEO from "../components/seo";
 // Components
 import Header from "../components/Header";
 import Work from "../components/Work";
-import Experience from "../components/Experience";
+// import Experience from "../components/Experience";
+import Speaking from "../components/Speaking";
 import About from "../components/about";
 import Skills from "../components/skills";
-import Promotion from "../components/Promotion";
+// import Promotion from "../components/Promotion";
 import Footer from "../components/Footer";
 
 const IndexPage = () => (
@@ -21,6 +22,7 @@ const IndexPage = () => (
 		{/* <Experience></Experience> */}
 		<Skills></Skills>
 		<About></About>
+		<Speaking></Speaking>
 		<Footer></Footer>
 	</Layout>
 );

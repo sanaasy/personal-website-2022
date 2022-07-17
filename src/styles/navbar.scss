@@ -26,20 +26,5 @@
     .active {
       color: black;
     }
-    a {
-      text-decoration: none;
-      margin: 0 0.5vw;
-      color: black;
-      border: 1px solid black;
-      border-radius: 0.25em;
-      padding: 10px;
-      font-family: "Open Sans";
-      opacity: 0.6;
-      transition: all 0.2s ease-in-out;
-      font-size: 18px;
-      &:hover {
-        opacity: 1;
-      }
-    }
   }
 }

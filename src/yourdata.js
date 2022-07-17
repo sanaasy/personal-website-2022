@@ -29,7 +29,7 @@ import railsIcon from "./images/tools/rails.svg";
 import vueIcon from "./images/tools/vue.svg";
 
 // Other Icons
-import designIcon from "./images/design.svg";
+// import designIcon from "./images/design.svg";
 import gcdlIcon from "./images/certs/gcdl.png";
 import azIcon from "./images/certs/az.png";
 // import codeIcon from "./images/code.svg";
@@ -242,6 +242,68 @@ export default {
 
 	// End Skills Section --------------------------
 
+	//   Speaking Section --------------------------
+	speaking: [
+		{
+			title: 'The Personal Branding Playbook',
+			description: 'A workshop I presented at a work trip on what personal branding is, how to use it to your advantage and being your authentic self when doing so.',
+			type: 'Workshop',
+			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/src/images/pbp.JPG?raw=true',
+			link: ''
+		},
+		{
+			title: 'Google Cloud Platform Info Session',
+			description: "As part of Google's Solutions Challenge 2022, I presented an introduction to the Google Cloud Platform at University of Toronto.",
+			type: 'Seminar',
+			imageSrc: 'https://www.freecodecamp.org/news/content/images/2020/10/gcp.png',
+			link: 'https://gdsc.community.dev/events/details/developer-student-clubs-university-of-toronto-st-george-campus-presents-intro-to-google-cloud-platform/'
+		},
+		{
+			title: 'QCO Tech Conference',
+			description: "A tech conference I planned and hosted to foster spaces of collaboration and making connections, while also highlighting the challenges of gender diversity in the field.",
+			type: 'Conference',
+			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/src/images/QCO.jpg?raw=true',
+			link: 'https://gdsc.community.dev/events/details/developer-student-clubs-carleton-university-presents-queens-carleton-uottawa-tech-conference/'
+		},
+		{
+			title: 'Intersection of Design and Dev',
+			description: 'A podcast episode I hosted with Brian Lovin of Github about how knowing design and development has helped us both.',
+			type: 'Podcast',
+			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/src/images/podcast.png?raw=true',
+			link: 'https://open.spotify.com/episode/1Qp47hbuRm8YtirkN4SfAk?si=ccd683db13994f64'
+		},
+		{
+			title: 'GirlUp Oakville: Intro to Mobile Development',
+			description: 'A month into my mobile development internship, I was invited to speak at the GirlUp Oakville STEMinar event.',
+			type: 'Workshop',
+			imageSrc: 'https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/zymr8_steps_the_mobile_app_dev_lifecycle_cover.jpg',
+			link: ''
+		},
+		// {
+		// 	title: 'What I learned ',
+		// 	description: 'description description description description description',
+		// 	type: 'Blog Post',
+		// 	imageSrc: 'https://idcdxawards.com/wp-content/uploads/2022/01/pngkey.com-ega-png-2332677.png',
+		// 	link: '#'
+		// },
+		// {
+		// 	title: 'My summer at RBC',
+		// 	description: 'description description description description description',
+		// 	type: 'Blog Post',
+		// 	imageSrc: 'https://idcdxawards.com/wp-content/uploads/2022/01/pngkey.com-ega-png-2332677.png',
+		// 	link: '#'
+		// },
+		{
+			title: 'News Article: My journey in STEMing UP',
+			description: 'My journey from the STEMing UP program in 2018 to the Dev Degree integrated work learning program with Shopify.',
+			type: 'Article',
+			imageSrc: 'https://i.itbusiness.ca/wp-content/uploads/2019/06/Sanaa-press-release-.png',
+			link: 'https://www.itbusiness.ca/press-release/her-volution-announces-steming-up-student-sanaa-syed-success'
+		},
+	],
+
+	// End Speaking Section -----------------
+
 	//   Promotion Section --------------------------
 
 	promotionHeading: "What I'm up to",
@@ -258,7 +320,7 @@ export default {
 	social: [
 		{
 			img: linkedin,
-			url: "https://www.codepen.com/",
+			url: "https://www.linkedin.com/in/sanaasy/",
 		},
 		{ img: github, url: "https://github.com/sanaasy" },
 		{

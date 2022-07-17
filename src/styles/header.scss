@@ -71,10 +71,25 @@
       width: 100%;
     }
   }
+  .resume {
+    text-decoration: none;
+    margin: 2vh 0 0 0;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    padding: 10px;
+    font-family: "Open Sans";
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+    font-size: 18px;
+    &:hover {
+      opacity: 1;
+    }
+  }
   .social-icons {
     img {
       height: 3rem;
-      margin: 5vh 1vw 0 0;
+      margin: 3vh 1vw 0 0;
       &:hover {
         filter: invert(71%) sepia(15%) saturate(4349%) hue-rotate(176deg)
           brightness(92%) contrast(82%);

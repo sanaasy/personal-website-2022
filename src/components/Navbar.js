@@ -3,6 +3,10 @@ import scrollTo from "gatsby-plugin-smoothscroll";
 import logo from "../images/logo.png";
 
 const Navbar = () => {
+	let clickMe = (location) => {
+    return () => scrollTo(location);
+  };
+
 	return (
 		<div className="section">
 			<div className="container">
@@ -11,13 +15,25 @@ const Navbar = () => {
 						<img src={logo} alt="logo" className="name" />
 					</div>
 					<div className="links-wrapper">
-						{/* <button onClick={() => scrollTo("#work")}>Projects</button> */}
-						{/* <button onClick={() => scrollTo("#skills")}>Skills</button> */}
-						{/* <button onClick={() => scrollTo("#about")}>About</button> */}
-						{/* <button onClick={() => scrollTo("#contact")}>Contact</button> */}
-						<a target="no_blank" href="/resume.pdf">
-							check out my <strong>resume</strong>
-						</a>
+					<button onClick={clickMe("#home")} onKeyDown={clickMe("#home")}>
+              Home
+            </button>
+            <button onClick={clickMe("#work")} onKeyDown={clickMe("#work")}>
+              Projects
+            </button>
+            <button onClick={clickMe("#skills")} onKeyDown={clickMe("#skills")}>
+              Skills
+            </button>
+            <button onClick={clickMe("#about")} onKeyDown={clickMe("#about")}>
+              About Me
+            </button>
+            <button
+              onClick={clickMe("#featured")}
+              onKeyDown={clickMe("#featured")}
+            >
+              Featured
+            </button>
+						<button onClick={clickMe("#contact")} onKeyDown={clickMe("#contact")}>Contact Me</button>
 					</div>
 				</div>
 			</div>
