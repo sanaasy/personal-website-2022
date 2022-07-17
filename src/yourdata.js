@@ -248,7 +248,7 @@ export default {
 			title: 'The Personal Branding Playbook',
 			description: 'A workshop I presented at a work trip on what personal branding is, how to use it to your advantage and being your authentic self when doing so.',
 			type: 'Workshop',
-			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/src/images/pbp.JPG?raw=true',
+			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/main/src/images/pbp.JPG?raw=true',
 			link: ''
 		},
 		{
@@ -262,14 +262,14 @@ export default {
 			title: 'QCO Tech Conference',
 			description: "A tech conference I planned and hosted to foster spaces of collaboration and making connections, while also highlighting the challenges of gender diversity in the field.",
 			type: 'Conference',
-			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/src/images/QCO.jpg?raw=true',
+			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/main/src/images/QCO.jpg?raw=true',
 			link: 'https://gdsc.community.dev/events/details/developer-student-clubs-carleton-university-presents-queens-carleton-uottawa-tech-conference/'
 		},
 		{
 			title: 'Intersection of Design and Dev',
 			description: 'A podcast episode I hosted with Brian Lovin of Github about how knowing design and development has helped us both.',
 			type: 'Podcast',
-			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/src/images/podcast.png?raw=true',
+			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/main/src/images/podcast.png?raw=true',
 			link: 'https://open.spotify.com/episode/1Qp47hbuRm8YtirkN4SfAk?si=ccd683db13994f64'
 		},
 		{
