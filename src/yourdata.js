@@ -249,7 +249,7 @@ export default {
 			description: 'A workshop I presented at a work trip on what personal branding is, how to use it to your advantage and being your authentic self when doing so.',
 			type: 'Workshop',
 			imageSrc: 'https://github.com/sanaasy/personal-website-2022/blob/main/src/images/pbp.JPG?raw=true',
-			link: ''
+			link: 'https://medium.com/@sanaasyed/the-personal-branding-playbook-f1dd469ebf9c'
 		},
 		{
 			title: 'Google Cloud Platform Info Session',
@@ -273,7 +273,7 @@ export default {
 			link: 'https://open.spotify.com/episode/1Qp47hbuRm8YtirkN4SfAk?si=ccd683db13994f64'
 		},
 		{
-			title: 'GirlUp Oakville: Intro to Mobile Development',
+			title: 'GirlUp Oakville: Intro to Mobile Dev',
 			description: 'A month into my mobile development internship, I was invited to speak at the GirlUp Oakville STEMinar event.',
 			type: 'Workshop',
 			imageSrc: 'https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/zymr8_steps_the_mobile_app_dev_lifecycle_cover.jpg',
@@ -294,7 +294,7 @@ export default {
 		// 	link: '#'
 		// },
 		{
-			title: 'News Article: My journey in STEMing UP',
+			title: 'My journey from STEMing UP to Tech',
 			description: 'My journey from the STEMing UP program in 2018 to the Dev Degree integrated work learning program with Shopify.',
 			type: 'Article',
 			imageSrc: 'https://i.itbusiness.ca/wp-content/uploads/2019/06/Sanaa-press-release-.png',
