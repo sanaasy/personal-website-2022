@@ -25,7 +25,7 @@ const Skills = () => {
                   type="button"
                   style={{
                     backgroundColor:
-                      filter === categoryName ? "#000" : "#F2F2F2",
+                      filter === categoryName ? "#000" : "#fff",
                     color: filter === categoryName ? "#fff" : "#000",
                   }}
                   className="btn active"

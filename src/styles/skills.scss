@@ -24,7 +24,6 @@
   .btn {
     display: flex;
     justify-content: center;
-    background: none;
     border: none;
     cursor: pointer;
     margin: 0 1rem;
@@ -32,14 +31,18 @@
     font-style: bold;
     padding: 0.5rem;
     border-radius: 1rem;
-    transition: all .3s ease-in-out;
+    border: 1px solid black;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      opacity: 0.6;
+    }
   }
 
   .btn button:hover,
   .btn button:focus,
   .btn .active {
     font-weight: bold;
-    background: none;
     border: none;
     cursor: pointer;
   }
@@ -91,13 +94,6 @@
 					margin: 0;
 				}
 			}
-			// .gray {
-			// 	width: 15vw;
-			// 	background-color: lightgray;
-			// 	@include media(">=phone", "<lgphone") {
-			// 		width: 50vw;
-			// 	}
-			// }
 		}
 	}
   .certs-grid {
