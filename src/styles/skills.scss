@@ -10,6 +10,9 @@
 		line-height: 20px;
 		text-align: center;
 	}
+	@include media(">=tablet", "<desktop") {
+		height: 50vh;
+	}
 
   .button-group {
     display: flex;
@@ -54,7 +57,7 @@
 			grid-column-gap: 10vw;
 		}
 		@include media(">=tablet", "<desktop") {
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(5, 1fr);
 		}
 		.skill {
 			width: 10vw;
@@ -73,6 +76,9 @@
 				}
 				@include media(">=lgphone", "<tablet") {
 					display: none;
+				}
+				@include media(">=tablet", "<desktop") {
+					height: 2rem;
 				}
 			}
 			p {
@@ -107,7 +113,7 @@
       text-align: center;
       justify-content: center;
       img {
-        height: 9rem;
+        height: 8rem;
       }
       p {
         margin-top: 0.75vh;
